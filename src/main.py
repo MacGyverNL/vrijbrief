@@ -7,7 +7,7 @@ if __name__ == '__main__':
     
     catId = None
     for catId, series, pool in wi.listCategories():
-        if series == "Sportkaart Ru Student  13/14" and pool == "zwemmen":
+        if series == "Sportkaart X + 1 RU  14/15" and pool == "zwemmen":
             print "Using %s (%s %s)" % (catId, series, pool)
             
             for date, startTime, endTime, availability, accesskey in wi.listEntries(catId):
